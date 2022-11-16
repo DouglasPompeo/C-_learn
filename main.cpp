@@ -85,11 +85,6 @@ void aula04(){
   getchar();
   scanf("%c",&letra);
   printf("o seu nome eh  %c",letra);
-
-  printf("\n digite a string :");
-  getchar();
-  scanf("%s",&string);
-  printf("a string eh um  %s",&string);
 }
 
 
