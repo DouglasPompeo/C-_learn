@@ -6,12 +6,34 @@ void aula03();
 void aula04();
 void aula05();
 void aula06();
+void aula07();
 
 
 
 
 int main (){
-  aula05();
+  aula07();
+}
+
+void aula07(){
+  int num1,num2; // declara duas variaveis
+  
+  printf("digite dois numeros inteiros :"); // solicita o valor das variaveis
+  
+  scanf("%i%i",&num1,&num2);// le a entrada do teclado e coloca os valores
+  
+  // nas variantes previamente declaradas
+  
+  if(num1 > num2){ // se o numero for maior do que o segundo numero 
+    
+    printf("o numero %i eh maior do que o numero %i", num1,num2); // entao vamos printar a seguinte frase
+  }
+    else if(num1 < num2){
+      printf("o numero %i eh maior do que o numero %i", num2,num1);
+    }
+      else{
+        printf("o numero %i eh igual ao  numero %i", num2,num1);
+      }
 }
 
 void aula05(){
@@ -85,6 +107,20 @@ void aula04(){
   getchar();
   scanf("%c",&letra);
   printf("o seu nome eh  %c",letra);
+}
+
+void aula06(){
+  int num1,num2;
+  printf("digite dois numeros inteiros :");
+  scanf("%i%i",&num1,&num2);
+if(num1==num2){
+  
+  printf("voce digitou dois numeros iguais");
+}
+  if(num1 !=num2){
+    printf("voce digitou dois numeros diferentes");
+  }
+  
 }
 
 
