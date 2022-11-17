@@ -7,13 +7,33 @@ void aula04();
 void aula05();
 void aula06();
 void aula07();
+void aula08();
 
 
 
 
 int main (){
-  aula07();
+  aula08();
 }
+
+void aula08()
+{
+  int num1,num2,num3;
+  printf("digite o valor de  num1 :");
+  scanf("%i",&num1);
+  getchar();
+  printf("digite o valor de num2 :");
+  scanf("%i",&num2);
+  getchar();
+  printf("digite o valor de num3 :");
+  scanf("%i",&num3);
+  
+  if (!(num1 > num2) && (num1 > num3))
+  {
+    printf("num1 eh maior do que algum  dos outros");
+  }
+}
+
 
 void aula07(){
   int num1,num2; // declara duas variaveis
