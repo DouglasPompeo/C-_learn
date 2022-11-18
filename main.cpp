@@ -8,13 +8,79 @@ void aula05();
 void aula06();
 void aula07();
 void aula08();
-
-
+void aula09();
+void aula10();
+void aula11();
+void aula12();
 
 
 int main (){
-  aula08();
+  aula12();
 }
+
+void aula12()
+{
+ int vetor[10];
+  for(int i = 0; i < 10;i++);
+  char vetorc[]{'o','l','a'};
+  int i;
+  for (i = 0; i< 5;i++);
+  printf("%i\n",vetor[i]);
+
+  scanf("%i",&vetor[3]);
+  for(i = 0; i < 5; i++)
+    printf("%i\n",vetor[i]);
+}
+
+
+
+
+void aula11()
+{
+  int numero = 1;
+  while (numero <= 10)
+  {
+    printf("%i\n",numero);
+    numero+=1;
+  }
+}
+
+
+
+
+void aula10()
+{
+  int num1;
+  printf("digite o valor de  num1 :");
+  scanf("%i",&num1);
+  while(num1 > 5)
+    do
+  {
+    printf("voce digitou um numero maior do que 5");
+    getchar();
+    printf("\ndigite o valor de num1 :");
+    scanf("%i",&num1);
+  }while(num1 > 5);
+}
+
+
+
+void aula09()
+{
+int num1;
+  printf("digite o valor de  num1 :");
+  scanf("%i",&num1);
+  while(num1 > 5)
+  {
+    printf("voce digitou um numero maior do que 5");
+    getchar();
+    printf("\ndigite o valor de num1 :");
+    scanf("%i",&num1);
+  }
+  
+}
+
+
 
 void aula08()
 {
