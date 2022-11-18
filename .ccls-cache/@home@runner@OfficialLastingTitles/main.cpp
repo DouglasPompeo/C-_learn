@@ -12,11 +12,59 @@ void aula09();
 void aula10();
 void aula11();
 void aula12();
+void aula13();
+int aula14();
+int aula15(int numero1, int numero2 );
 
 
 int main (){
-  aula12();
+  int variavel;
+  printf("doigite o valor :");
+  scanf("%i",&variavel);
+  printf("%i", aula15(variavel,5));
 }
+
+
+int aula15(int numero1 , int numero2 )
+{
+  return (numero1 - numero2);
+  
+}
+
+
+
+
+
+int aula14()
+{
+  int numero , valor;
+  printf("digite um numero : ");
+  scanf("%i", &numero);
+  if(numero > 5)
+  {
+    valor = 1;
+  }
+  else
+  {
+    valor =  0;
+  }
+  printf("nunca chegou aqui");
+  return 0;
+
+}
+
+
+
+
+
+void aula13()
+{
+  
+}
+
+
+
+
 
 void aula12()
 {
